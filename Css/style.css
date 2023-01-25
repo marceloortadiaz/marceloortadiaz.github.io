@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    background: #5c65c0;
+    font-family: 'Rock Salt', cursive;
+
+}
+nav{
+    background: #5c65c0;
+}
+h1{
+    text-align: center;
+    font-family: 'Rock Salt';
+    text-shadow: 1px;
+    
+}
+
+.btn{
+    margin: 0 auto;
+    
+}
+.btn2{
+    font-size: 17px;
+    background: #6f95ff;
+    color: aliceblue;
+    text-decoration: none;
+    border-radius: 30px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+}
+.btn2:hover{
+    background: #6f95ff ;
+    opacity: 50%; 
+    color: black;
+}
+ul {
+    text-align: center;
+    list-style: none;
+}
+.iconos{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+
+}
+.iconosimg{
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 35px;
+
+}
+p{
+    margin-top: 20px;
+    text-size-adjust: 30px;
+    text-align: center;
+    min-height: 200px;
+    background: #5c65c0;
+    margin: 0%;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.61)
+}
+footer{
+    text-align: center;
+    background: #6f95ff;
+}
