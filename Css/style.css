@@ -1,11 +1,18 @@
-body{
-    margin: 0;
-    background: #5c65c0;
-    font-family: 'Rock Salt', cursive;
 
-}
+
+
+/*@media only screen and (max-width: 1024px){
+    .escritorio{
+        display: none; 
+}*/
+@media only screen and (max-width: 768px){
+    .escritorio{
+        display: none;    
+    }
+
 nav{
-    background: #5c65c0;
+    
+    background: #434d53;
 }
 h1{
     text-align: center;
@@ -19,20 +26,24 @@ h1{
     
 }
 .btn2{
-    font-size: 17px;
-    background: #6f95ff;
-    color: aliceblue;
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    background: #0e8d94;
+    color: black;
     text-decoration: none;
     border-radius: 30px;
     padding-left: 6px;
     padding-right: 6px;
     margin-top: 20px;
     margin-bottom: 200px;
+    box-shadow: -6px 8px 7px 1px rgba(0,0,0,0.53);
 }
 .btn2:hover{
-    background: #6f95ff ;
-    opacity: 50%; 
-    color: black;
+    
+    background: #0e8d9475;
+     
+    color: rgb(0, 0, 0);
+    
 }
 ul {
     text-align: center;
@@ -51,19 +62,51 @@ ul {
     display: block;
     margin: 0 auto;
     margin-top: 35px;
-
+    box-shadow: -6px 8px 7px 1px rgba(0,0,0,0.53);
+    border-radius: 130px;
 }
 p{
     margin-top: 20px;
     text-size-adjust: 30px;
     text-align: center;
     min-height: 200px;
-    background: #5c65c0;
+    letter-spacing: 4px;
+    background: #434d53;
     margin: 0%;
     font-weight: bold;
-    color: rgba(0, 0, 0, 0.61)
 }
 footer{
     text-align: center;
-    background: #6f95ff;
+    background: #0e8d94;
+}
+}
+
+body{
+    
+    margin: 0;
+    background: #434d53;
+    font-family: 'Rock Salt', cursive;
+
+} 
+ .escritorio{
+        width: auto;
+        height: 176vh;
+        background: black;
+        color: antiquewhite;
+        text-align: center;
+        font-size: 100px;
+        position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  
+    }
+    
+  
+
+
+
+footer{
+    text-align: center;
+    background: #0e8d94;
 }
