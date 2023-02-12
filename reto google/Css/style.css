@@ -1,0 +1,25 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+    background-color: #202124;
+}
+nav{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}
+
+div{
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #bdc1c6;
+}
+
+.titulo{
+    font-size: 115px;
+}
+.imp{
+    border-radius: 50px;
+    background-color: #bdc1c6;
+}

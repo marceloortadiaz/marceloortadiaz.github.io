@@ -74,8 +74,7 @@ ul {
 p{
     text-transform: capitalize;
     font-family: 'Raleway', sans-serif;
-    margin-top: 20px;
-    text-size-adjust: 30px;
+    
     text-align: center;
     min-height: 200px;
     letter-spacing: 4px;
