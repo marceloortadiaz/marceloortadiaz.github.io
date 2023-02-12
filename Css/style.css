@@ -1,49 +1,53 @@
-
-
-/* Querido jony, en teoria, deveria mostras una pagina negra con la leyenda que solo dse ve en movil, cuando lo abris en movil, deberia verse todo normal je*/
-
-
-/*@media only screen and (max-width: 1024px){
-    .escritorio{
-        display: none; 
-}*/
-@media only screen and (max-width: 768px){
-    .escritorio{
-        display: none;    
-    }
-
+body{
+    margin: 0;
+    background: #ffc942;
+    color: black;
+}
 nav{
     
-    background: #434d53;
-}
-h1{
-    text-align: center;
-    font-family: 'Rock Salt';
-    text-shadow: 1px;
     
 }
-
+h1{
+    font-family: 'Rock Salt';
+    text-align: center;
+    text-shadow: 1px;
+    font-size: small;
+    padding-bottom: 20px;    
+}
+.bbb{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    
+}
 .btn{
     margin: 0 auto;
     
 }
+
+li{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
 .btn2{
-    font-size: 14px;
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
     letter-spacing: 1.5px;
-    background: #0e8d94;
+    background: #fff;
     color: black;
     text-decoration: none;
-    border-radius: 30px;
-    padding-left: 6px;
-    padding-right: 6px;
-    margin-top: 20px;
-    margin-bottom: 200px;
+    border-radius: 2px;
+    width:240px;
+    padding-left: 15px;
+    padding-right: 15px;
     box-shadow: -6px 8px 7px 1px rgba(0,0,0,0.53);
+      
 }
 .btn2:hover{
     
-    background: #0e8d9475;
-     
+    background: #0e8d9475;     
     color: rgb(0, 0, 0);
     
 }
@@ -68,49 +72,29 @@ ul {
     border-radius: 130px;
 }
 p{
+    text-transform: capitalize;
+    font-family: 'Raleway', sans-serif;
     margin-top: 20px;
     text-size-adjust: 30px;
     text-align: center;
     min-height: 200px;
     letter-spacing: 4px;
-    background: #434d53;
     margin: 0%;
     font-weight: bold;
+    padding: 6px;
+}
+
+footer{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: black;
+    font-weight: 800;
     padding: 15px;
-}
-footer{
-    text-align: center;
-    background: #0e8d94;
-}
+       
 }
 
-body{
-    
-    margin: 0;
-    background: #434d53;
-    font-family: 'Rock Salt', cursive;
-
-} 
- .escritorio{
-        width: auto;
-        height: 176vh;
-        background: black;
-        color: antiquewhite;
-        text-align: center;
-        font-size: 100px;
-        letter-spacing: 4px;
-        position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 1;
-  
-    }
-    
-  
-
-
-
-footer{
-    text-align: center;
-    background: #0e8d94;
+hr {
+    width: 90%;
+    background-color: black;
 }
+      
