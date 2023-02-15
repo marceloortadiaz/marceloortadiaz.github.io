@@ -53,7 +53,7 @@ input[type=text] {
     justify-content: center;
     background: #202124;
     width: 500px;
-    height: 30px;
+    height: 37px;
     border-radius: 30px;
     border: 1px solid #5f6368;
     border-color: #bdc1c6;
@@ -85,6 +85,7 @@ input:hover{
     text-decoration: none;
     padding-top: 8px;
     padding-bottom: 8px;
+    
 }
 
     /*width:auto;
@@ -105,5 +106,42 @@ input:hover{
 .voy{
     display: block;
     text-align: -webkit-center;
-    padding-top: 35px;    
+    padding-top: 35px;  
+
+}
+footer{
+    background: #171717;
+    margin-top: 320px;
+}
+hr {
+    
+    width: 99%;
+}
+a{
+    text-decoration: none;
+    color: #bdc1c6;
+    padding-left: 30px;
+}
+.flex-contenedor{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: #bdc1c6;
+    padding-bottom: 15px;
+}
+.arg{
+  
+    justify-content: left;
+    border-bottom: 1px solid  #bdc1c6 ;
+}
+.foot{
+    justify-content: space-evenly;
+}
+goo{
+    justify-self: start;
+}
+.pri{
+    padding-left: 200px;
+    padding-right: 20px;
+    justify-self: end;
 }
